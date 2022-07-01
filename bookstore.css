@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#header{
+    margin-top: -35px;
+    margin-bottom: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-family:'Sarala', 'sans-serif';
+}
+
+.subtitulo{
+    margin-top: 75px;
+    font-size: 2rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+a{
+    padding: 3px;
+    margin-top: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+h3{
+    
+    text-align: center;
+   
+}
+
+img.fallen{
+    margin-left: 50px;
+    height: 210px;
+    width: 180px;
+   
+}
+
+img.fallen2{
+    height: 210px;
+    width: 180px;
+    padding-left: 44px;
+}
+
+img.fallen3{
+    height: 210px;
+    width: 170px;
+    
+    padding-left: 44px;
+}
+
+
+
+section.fallen{
+    display: inline-block;
+    
+}
+
+button.fallen{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 110px;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+button.fallen2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 98px;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+button.fallen3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 98px;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+
